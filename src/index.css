@@ -1,0 +1,141 @@
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: flex-end; /* Aligns items to the right */
+  align-items: center;
+  gap: 20px; /* Adds space between menu items */
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent navbar */
+  padding: 15px 30px; /* Adds padding for spacing */
+  width: 100%;
+}
+
+/* Navigation Links */
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Ensure body has no extra padding */
+body {
+  padding-top: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+/* Hero Section */
+.hero {
+  background: url('https://imgs.search.brave.com/SYDxHrL2ACxh3mfLdHqzg05qlQ6uOxhVAxtwv1LQd5c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YWdlbnRpbWFnZS5j/b20vc3RhdGljLzBi/MDE3MDA1ZjQ1Y2Uy/YTRiMDhlZjQzY2Fi/NjA3MGUxLzIwNTQ2/L21pZGRsZS1mb3Jt/LWJnLmpwZw') no-repeat center center/cover;
+  color: rgb(5, 57, 87);
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+}
+
+/* Wrapper for Featured Properties Section */
+.featured-properties-wrapper {
+  background: url('https://imgs.search.brave.com/3lFEZdNJyjJ2doAs9bCzBdANlrLmm5iCAvPF9uyhFZI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTA5/MzUwMjc1L3Bob3Rv/L21vZGVybi1saXZp/bmctcm9vbS1hbmQt/cGF0aW8tbmV4dC10/by1zd2ltbWluZy1w/b29sLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz0tODZHaTZZ/aVFVeWsybnBaRlpQ/amc1QkZrLUpDUVdv/S1AzSVBORFpxU0NJ/PQ') no-repeat center center fixed;
+  background-size: cover;
+  padding: 2rem;
+  color: white; /* Ensure text is visible on the background */
+}
+
+/* Featured Properties Heading */
+.featured-properties-wrapper h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: white; /* Ensure the heading is visible */
+}
+
+/* Properties List */
+.properties-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Property Card */
+.property-card {
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  border-radius: 10px;
+  padding: 1rem;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.property-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.property-card h3 {
+  margin: 1rem 0;
+  color: #333; /* Dark text for contrast */
+}
+
+.property-card p {
+  color: #555; /* Slightly lighter text */
+}
+
+/* Links */
+.view-details {
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.view-details:hover {
+  background-color: #0056b3;
+}
+
+.download-brochure {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 0.5rem 1rem;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.download-brochure:hover {
+  background-color: #218838;
+}
